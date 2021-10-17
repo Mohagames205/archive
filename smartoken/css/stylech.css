@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.hoofd{
+	background-image: url("img1.jpg");
+	background-size: cover;
+	color: black;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	margin: 0px;
+	text-align: center;
+	padding: 120px;
+	color: black;
+	font-size: 45px;
+	
+}
+
+ul {
+list-style-image: url('/css/check.png');
+}
+
+.opage {
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 80px;
+}
+
+.ja {
+	padding-left: 310px;
+	margin-top: 15px;
+}

@@ -1,0 +1,125 @@
+.begin {
+	font-size: 20px;
+	color: #FFF;
+}
+
+body {
+	font-family:'Encode Sans', sans-serif;
+}
+h1 {
+	text-align: center;
+}
+
+.vers {
+	font-size: 15px;
+	text-align: center;
+}
+
+.st-back{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	margin-left: -100px;
+	background: #FFF;
+	transform: translateY(-50%) rotate(45deg);
+}
+
+.all {
+	font-family: 'Encode Sans', sans-serif;
+}
+.pagina1 {
+	background-image: url('lol.jpg');
+	background-size: cover;
+	padding: 70px;
+	padding-bottom: 220px;
+        margin-top: -20px;
+	box-shadow: 6px 6px 5px #888888;
+}
+
+.wvj {
+	color: #FFF;
+	text-align: center;
+}
+
+ div#centerDiv {
+        width: 100%;
+        text-align: center;
+        border: 1px solid red;
+    }
+    ul.centerUL {
+        margin: 2px auto;
+        line-height: 1.4;
+        padding-left: 0;
+    }
+    .centerUL li {
+        display: inline;
+        text-align: center;
+    }
+	
+a:link {
+color: #FFF;
+}
+
+.love {
+	text-align: center;
+}
+
+/* Button animation tryout. */
+.pagina1 {
+    animation: moveDown 0.9s ease-in-out 0.7s backwards;
+}
+@keyframes moveDown{
+    0% { 
+        transform: translateX(-40px); 
+        opacity: 0;
+    }
+    100% { 
+        transform: translateX(0px);  
+        opacity: 1;
+    }
+}
+
+.pagina2 {
+    animation: moveDown 0.7s ease-in-out 0.3s backwards;
+	text-align: center;
+	color: black;
+	background-image: url('mcclc.jpg');
+	background-size: cover;
+	padding: 70px;
+	padding-bottom: 300px;
+	padding-top: 300px;
+	box-shadolw: 6px 6px 5px #888888;
+}
+@keyframes moveDown{
+    0% { 
+        transform: translateX(-40px); 
+        opacity: 0;
+    }
+    100% { 
+        transform: translateX(0px);  
+        opacity: 1;
+    }
+}
+
+
+.hoejj {
+	font-size: 45px;
+}
+
+.navani {
+    animation: moveRight 0.7s ease-in-out 0.3s backwards;
+	text-align: center;
+	color: black;
+}
+@keyframes moveRight{
+    0% { 
+        transform: translateY(-40px); 
+        opacity: 0;
+    }
+    100% { 
+        transform: translateY(0px);  
+        opacity: 1;
+    }
+}

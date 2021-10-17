@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.name{
+    
+    background-image: url("bg.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 5.5%;
+}
+
+.name h1{
+    font-size: 340%
+}
+
+.med{
+    text-align: center;
+    padding-top: 7%;
+}
+
+.nope{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 940px;
+}
+
+.nope h2{
+    padding-top: 430px;
+    font-size: 350%;
+}

@@ -1,0 +1,16 @@
+html{
+    margin: 20px;
+}
+
+
+
+.title{
+    background-image: url('mccc.jpg');
+    background-size: cover;
+    padding: 50px;
+    color: #FFF;
+    box-shadow: 4px 4px 3.5px #1d1c1c;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    }
+

@@ -1,0 +1,45 @@
+.Hoofdpag {
+
+background-image: url('/mccc.jpg');
+padding: 50px;
+color: #FFF;
+box-shadow: 4px 4px 3.5px #888888;
+border-radius: 4px;
+}
+
+.disckick {
+	font-weight: bold;
+	text-align: Center;
+}
+
+.Hoofdpag {
+    animation: moveDown 0.6s ease-in-out 0.2s backwards;
+}
+@keyframes moveDown{
+    0% { 
+        transform: translateY(-40px); 
+        opacity: 0;
+    }
+    100% { 
+        transform: translateY(0px);  
+        opacity: 1;
+    }
+}
+
+.desc {
+    animation: moveDown 1.0s ease-in-out 0.6s backwards;
+}
+@keyframes moveDown{
+    0% { 
+        transform: translateX(-40px); 
+        opacity: 0;
+    }
+    100% { 
+        transform: translateX(0px);  
+        opacity: 1;
+    }
+}
+
+body {
+	font-family:'Encode Sans', sans-serif;
+}

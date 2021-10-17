@@ -1,0 +1,156 @@
+# Webalizer V2.23-08 Incremental Data - 11/01/2017 23:09:59
+2017 11 1 23 9 59
+14 13 1 13 4 1 740368 1 1 0
+1 40 40 1 1
+14 13 740368 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+14 13 740368 1
+0
+0
+0
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/images/pic01.jpg
+0 1 2 10339 0 0
+/assets/fonts/fontawesome-webfont.woff2
+0 1 11 72255 0 0
+/images/overlay.png
+0 1 13 4657 0 0
+/assets/css/main.css
+0 1 8387236820436347764 6288 0 0
+/assets/js/jquery.min.js
+0 1 11 33630 0 0
+/images/bg.jpg
+0 1 1 573158 0 0
+/
+0 1 4789689685731531040 3713 1 0
+/assets/js/skel.min.js
+0 1 1 3521 0 0
+/assets/js/main.js
+0 1 0 2541 0 0
+/images/pic03.jpg
+0 1 1 9970 0 0
+/assets/js/util.js
+0 1 1 3589 0 0
+/images/pic02.jpg
+0 1 8 9177 0 0
+/assets/css/font-awesome.min.css
+0 1 2 7000 0 0
+# End Of Table - urls
+# -sites- (monthly)
+81.242.22.223
+0 14 13 740368 1 1509577796
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+81.242.22.223
+0 14 13 740368 1 1509577796
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://beta.cyberpaneel.tk/assets/css/main.css
+0 2
+- (Direct Request)
+0 1
+http://beta.cyberpaneel.tk/
+0 10
+http://beta.cyberpaneel.tk/assets/css/font-awesome.min.css
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G900F Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 C
+0 14
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

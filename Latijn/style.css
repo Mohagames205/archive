@@ -1,0 +1,53 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+	font-family: 'Roboto', sans-serif !important;
+	color: white !important;
+}
+
+h1 {
+	font-size: 90px;
+	text-align: center;
+	
+}
+
+
+.page1 {
+	text-align: center;
+	background-image: url("SLIDER1-opti.jpg");
+	background-size: cover;
+	font-size: 28px;
+	padding-bottom: 450px;
+	padding-top: 250px;
+
+h1 {
+	font-size: 50px;
+	margin: 0px;
+	
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.page2 {
+	padding-top: 380px;
+	padding-bottom: 380px;
+	background-image: url(expo.jpg);
+	background-size: cover;
+	text-align: center;
+	
+}
+
+.button {
+	display: inline-block !important;
+	padding-right: 150px;
+	text-align: right;
+	  
+}
+
+.button1 {
+	display: inline-block !important;
+	padding-left: 150px;
+	text-align: left;
+}

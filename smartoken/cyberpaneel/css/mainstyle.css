@@ -1,0 +1,18 @@
+body {
+	background-image: url("img3.jpg");
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.pagina1 {
+	text-align: center;
+	font-size: 28px;
+	margin-top: 200px;
+	/*Border-Radius*/
+}

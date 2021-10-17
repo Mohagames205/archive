@@ -1,0 +1,132 @@
+
+.begin {
+    text-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    font-size: 250%;
+    text-align: center;
+	color: #FFF;
+}
+
+body {
+	font-family:'Encode Sans', sans-serif;
+}
+
+.vers {
+	font-size: 15px;
+	text-align: center;
+}
+
+
+
+.all {
+	font-family: 'Encode Sans', sans-serif;
+}
+.pagina1 {
+    animation: moveDown 0.6s linear 0.2s backwards;
+    background-image: url('fotos/splash.png');
+    background-size: cover;
+	padding: 100px;
+	padding-bottom: 10px;
+	box-shadow: 0px 6px 5px #1a1919b2;
+	border-radius: 4px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-device-width: 1366px) {
+.pagina1{
+
+    background-attachment: scroll;
+    
+}
+}
+
+.wvj {
+    font-size: 150%;
+	color: #FFF;
+	text-align: center;
+}
+
+ div#centerDiv {
+        width: 100%;
+        text-align: center;
+        border: 1px solid red;
+    }
+    ul.centerUL {
+        margin: 2px auto;
+        line-height: 1.4;
+        padding-left: 0;
+    }
+    .centerUL li {
+        display: inline;
+        text-align: center;
+    }
+	
+a:link {
+color: #FFF;
+}
+
+.love {
+	text-align: center;
+}
+
+
+.pagina2 {
+    animation: moveDown 1s ease-in-out 0.6s backwards;
+	text-align: center;
+    color: #FFF;
+    background-color: #43a047;
+	padding: 70px;
+	padding-top: 80px;
+	/*box-shadow: 6px 6px 5px #888888;*/
+    border-radius: 4px;
+    margin-top: -60px;
+    z-index: -10;
+    position: relative;
+}
+@keyframes moveDown{
+    0% { 
+        transform: translateY(-40px); 
+        opacity: 0;
+
+    }
+    100% { 
+        transform: translateY(0px);  
+        opacity: 1;
+    }
+}
+
+
+.hoejj {
+	font-size: 45px;
+}
+
+
+.server{
+    background-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkslategray;
+    margin-left: 10%;
+    margin-right: 10%;
+    -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    margin-bottom: 2.5%
+
+}
+
+
+.raster{
+    margin-top: 2.5%;
+    text-align: left;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 90px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
