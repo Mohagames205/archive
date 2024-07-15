@@ -25,18 +25,23 @@ services:
     #container_name: webserver
     restart: unless-stopped
     tty: true
-    ports:
-      - "1235:80"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.archive.entrypoints=web,websecure"
+      - "traefik.http.routers.archive.rule=Host(`ancient.mootje.be`)"
+      - "traefik.http.routers.archive.tls=true"
     volumes:
       - ./:/var/www
       - ./.docker/nginx/conf.d/:/etc/nginx/conf.d/
     networks:
       - app-network
+      - traefik_default
+    links:
+      - db:db
 
   #MySQL Service
   db:
     image: mysql:5.7.22
-    #container_name: db
     restart: unless-stopped
     tty: true
     ports:
@@ -56,6 +61,8 @@ services:
 networks:
   app-network:
     driver: bridge
+  traefik_default:
+    external: true
 #Volumes
 volumes:
   dbdata:
